@@ -2,5 +2,5 @@ funtion onButtonClick(){
 	alert(`Button clicked!`);
 }
 const button = document.querySelector(`button`);
-button.addEventListener(`click`, onButtonClick);
+button.addEventListener(`click`, onButtonClick());
 
